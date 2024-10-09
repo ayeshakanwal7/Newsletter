@@ -1,0 +1,86 @@
+body {
+    font-family: "open sans", sans-serif;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.content{
+    margin-top: 50px;
+    border-top:  1px solid rgb(171, 178, 185);
+    padding-top: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+.first-section{
+    margin: 0px 0px;
+}
+.second-section{
+    background-color: rgb(153, 24, 24);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+.third-section, .fourth-section, .fifth-section, .seventh-section, .ninth-section{
+    display: flex;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    hyphens: auto;
+    line-height: 1.4;
+}
+.box{
+    background-color: rgb(5, 5, 155);
+    margin: 5px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+.thirteen-section{
+    background-color: rgb(5, 5, 155);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #1e1e2c;
+}
+.boxes button{
+    border: none;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+h3 {
+    color: #1e1e2c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1.title {
+        font-size: 2rem;
+    }
+
+    h2.subtitle {
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
